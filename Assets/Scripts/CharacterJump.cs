@@ -4,7 +4,7 @@
 public class CharacterJump : MonoBehaviour
 {
     private CharacterController controller;
-    private Vector3 movement;
+    public Vector3 movement;
 
     public float gravity = -9.81f, jumpForce = 30f;
     private float yVar;
